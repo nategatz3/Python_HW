@@ -1,3 +1,2 @@
 # gatz_nathan_python_hw
-Repository for DA Bootcamp Python HW
-Hello there! Welcome to my Python Repository.
+Welcome to my repository for DA Bootcamp Python HW 1!
