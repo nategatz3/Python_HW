@@ -13,34 +13,34 @@ ar.print_self()
 
 #TODO: create several more instance of the Arithmetic class and add different values
 
-addition = ar.add()
+addition = Arithmetic(50,80)
 
-addition
+addition.add()
 
-division = ar.divide()
+division = Arithmetic(75,225)
 
-division
+division.divide()
 
-remainders = ar.remainder()
+remainders = Arithmetic(48,687)
 
-remainders
+remainders.remainder()
 
-multiplication = ar.multiply()
+multiplication = Arithmetic(18,30)
 
-multiplication
+multiplication.multiply()
 
-bigproblem = ar.add() * ar.multiply()
+bigproblem = addition.add() * multiplication.multiply()
 
-bigproblem
+print(bigproblem)
 
-alltogether = (ar.add() * ar.multiply()) / (ar.divide() - ar.multiply())
+alltogether = (addition.add() * multiplication.multiply()) / (division.divide() - multiplication.multiply())
 
-alltogether
+print(alltogether)
 
-mathiscool = (ar.divide() - ar.multiply())**2 / (ar.add() * ar.multiply()) * 0.5
+mathiscool = (division.divide() - multiplication.multiply())**2 / (addition.add() * multiplication.multiply()) * 0.5
 
-mathiscool
+print(mathiscool)
 
-goingforitall = ((ar.divide() - ar.multiply()**2) / (ar.add() * ar.multiply()) * 0.5 * 62 / (ar.multiply() / 5)) * ar.divide()
+goingforitall = ((division.divide() - multiplication.multiply()**2) / (addition.add() * multiplication.multiply()) * 0.5 * 62 / (multiplication.multiply() / 5)) * division.divide()
 
-goingforitall
+print(goingforitall)
