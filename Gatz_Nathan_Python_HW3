@@ -71,13 +71,13 @@ print("------------ End of Function Initialization ---------------------\n\n")
 # Input type: String
 # Return type: Boolean
 
-test_string = "Racecar"
+flip_string = "Racecar"
 
 def palindrome(string):
     string = string.lower()
     return string == string[::-1]
 
-print(palindrome(test_string))
+print(palindrome(flip_string))
 
 '''
 Boolean values can represent the state of a program or a certain condition. For example, you can use variables such as game_active, can_edit, and polling_open, which take either a True or False value. When these values are True, certain code sections are enabled as the program runs.
